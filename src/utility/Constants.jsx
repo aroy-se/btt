@@ -3,6 +3,10 @@ export const PROD_ENV = "production";
 export const DEV_ENV = "development";
 export const TEST_ENV = "test";
 
+// Constants for release version and date
+export const RELEASE_VERSION = process.env.REACT_APP_BTT_RELEASE_VERSION;
+export const RELEASE_DATE = process.env.REACT_APP_BTT_RELEASE_DATE;
+
 // Constants for various type of user
 export const END_USER = "User";
 export const ADMIN = "Admin";

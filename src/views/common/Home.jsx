@@ -5,6 +5,7 @@ import bug_img from "../../assets/images/bug_home_img.jpg";
 import enhancement_img from "../../assets/images/enhancement_home_img.jpg";
 import new_feature_img from "../../assets/images/new_feature_home_img.jpg";
 import faq_img from "../../assets/images/faq_home_img.jpg";
+import * as Constants from "../../utility/Constants";
 
 const Home = () => {
   return (
@@ -24,8 +25,8 @@ const Home = () => {
               <h2 class="card-title Blockquote">BTT - Bug Tracking Tools</h2>
               <p class="card-text font-weight-lighter">
                 <small>
-                  Bug tracking product, developed by APC-Web Development POC-G1
-                  team, used for bug tracking and project management.
+                  Bug tracking product, developed by Abhijit Roy, used for bug
+                  tracking and project management.
                 </small>
               </p>
             </div>
@@ -65,8 +66,11 @@ const Home = () => {
               <marquee behavior="scroll" direction="left" scrollamount="2">
                 <small class="text-muted">
                   Upcoming release{" "}
-                  <span className="text-danger">BTT-v2021.06</span> will be
-                  released on <span className="text-danger">18-May-2021</span>
+                  <span className="text-danger">
+                    {Constants.RELEASE_VERSION}
+                  </span>{" "}
+                  will be released on{" "}
+                  <span className="text-danger">{Constants.RELEASE_DATE}</span>
                 </small>
               </marquee>
               {/* </footer> */}
