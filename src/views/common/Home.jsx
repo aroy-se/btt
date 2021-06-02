@@ -161,7 +161,7 @@ const Home = () => {
                     Process.
                   </p>
                   <Link
-                    to="/faq"
+                    to="/viewFaq"
                     class="btn btn-sm btn-outline-secondary shadow"
                   >
                     FAQ Page
