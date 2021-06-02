@@ -10,13 +10,7 @@ Other Skills:  GIT, AGILE
 
 Team Size: 4
 -------------
-Team Members:
-
-Afroze Khan
-
-Elangovan Perumalsamy
-
-Seela Balaji	
+Team Members:	
 
 Abhijit Roy
 	
